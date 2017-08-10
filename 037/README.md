@@ -1,13 +1,14 @@
 The cjam works this way
 
 ```
-1e4{         loops from 0 to 1e4 
-             — it could be anything, but the performances would go down :-)
+1e4{         for loop with I from 0 to 1e4 
+             (with more than 1e4 the performances would go down, but it works :-)
   S          S is initialized to ' '
   I+         concats I to S
   :S         assigns the new string to S
   ;          pops the string from the stack
 }fI          f is for, I is the variable
+
 S1>          slice S from position 1, removing ' 0'
 s            converts S to a string (it is necessary, for some reason)
 r#           finds the index of the argument and puts it in the stack
