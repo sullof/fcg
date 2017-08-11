@@ -15,3 +15,5 @@ r#           finds the index of the argument and puts it in the stack
 ```
 
 You can verify it [here](http://cjam.aditsu.net/#code=1e4%7BSI%2B%3AS%3B%7DfIS1%3Esr%23&input=2930)
+
+In the JS version I called the variable with the same names and initialized S the same way ;-)
