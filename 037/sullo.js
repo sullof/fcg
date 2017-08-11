@@ -1,1 +1,1 @@
-for(a='.',i=1;i<1e5;a+=i++);console.log(a.indexOf(process.argv[2]))
+for(S=' ',I=1;I<1e5;S+=I++);console.log(S.indexOf(process.argv[2]))
