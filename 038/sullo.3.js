@@ -1,0 +1,1 @@
+console.log(31-Math.clz32((n=process.argv[2])&-n))
