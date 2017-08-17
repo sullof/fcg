@@ -1,0 +1,28 @@
+Challenge #38: How Even is a Number
+
+The ancient Greeks had these things called singly and doubly even numbers. An example of a singly even number is 14. It can be divided by 2 once, and has at that point become an odd number (7), after which it is not divisible by 2 anymore. A doubly even number is 20. It can be divided by 2 twice, and then becomes 5.
+
+Your task is to write a function or program that takes an integer as input, and outputs the number of times it is divisible by 2 as an integer, in as few bytes as possible.
+
+
+Test cases:
+
+```
+14 -> 1
+
+20 -> 2
+
+94208 -> 12
+
+7 -> 0
+
+-4 -> 2
+```
+
+The Rules
+
+- Your program may accept input over STDIN or ARGV
+- Your program should print the output to STDOUT or equivalent
+- The number of divisions should be the only output. Trailing whitespace is acceptable.
+- The input will be a nonzero integer (any positive or negative value, within the limits of your language).
+- This code golf, so lowest number of bytes wins!
