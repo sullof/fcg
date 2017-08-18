@@ -23,6 +23,10 @@ The solution #2 converts n&-n to a binary string and calculates the size. But th
 
 Since in JS there is a function to calculating the leading 0, the solution #3 uses that, substracting the leading zeros + 1 from 32.
 
+##### The ruby solution
+
+It is basically like the 2nd and 3rd JS solution, but counts the trailing zeros.
+
 ##### The cjam solution
 ```
 r     reads the argument
