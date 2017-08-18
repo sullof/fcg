@@ -1,1 +1,1 @@
-console.log(--((n=process.argv[2])&-n>>>0).toString(2).length)
+console.log(Math.log2((n=process.argv[2])&-n))
